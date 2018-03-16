@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.android_studio.digioclock.MainActivity"
+    android:background="@color/black"
+    android:paddingTop="150dp"
+    android:textColor="@color/green"
+>
+<RelativeLayout
+    android:layout_width="368dp"
+    android:layout_height="495dp"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp">
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:textSize="30dp"
+        android:text="sunday"
+        android:id="@+id/b1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:text=":"
+        android:textColor="@color/green"
+        android:textSize="100dp"
+        android:layout_below="@+id/b1"
+        android:layout_centerHorizontal="true"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:text="02"
+        android:textColor="@color/green"
+        android:textSize="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@id/b2"
+        android:layout_below="@id/b1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b4"
+        android:textColor="@color/green"
+        android:textSize="100dp"
+        android:text="45"
+        android:layout_toRightOf="@id/b2"
+        android:layout_below="@id/b1"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/green"
+        android:layout_height="wrap_content"
+        android:id="@+id/b5"
+        android:text="29 NOVEMBER 2015"
+        android:textSize="20dp"
+        android:layout_below="@+id/b3"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:id="@+id/b6"
+        android:text="AM"
+        android:paddingTop="35dp"
+        android:layout_toRightOf="@id/b4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:id="@+id/b7"
+        android:text="32"
+        android:layout_toRightOf="@id/b4"
+        android:layout_below="@id/b6"
+        android:paddingTop="45dp"/>
+
+</RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
